@@ -10,12 +10,14 @@ import { SharedModule } from './shared/shared.module';
 import { ApiService } from './core/services';
 import { HttpClientModule } from '@angular/common/http';
 import { ErrorComponent } from './errors/error/error.component';
+import { HomeComponent } from './modules/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateMemberComponent,
-    ErrorComponent
+    ErrorComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
